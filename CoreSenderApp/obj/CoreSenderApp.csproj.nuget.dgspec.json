@@ -1,0 +1,69 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\WorkArea\\Practice\\CoreSenderApp\\CoreSenderApp\\CoreSenderApp.csproj": {}
+  },
+  "projects": {
+    "D:\\WorkArea\\Practice\\CoreSenderApp\\CoreSenderApp\\CoreSenderApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\WorkArea\\Practice\\CoreSenderApp\\CoreSenderApp\\CoreSenderApp.csproj",
+        "projectName": "CoreSenderApp",
+        "projectPath": "D:\\WorkArea\\Practice\\CoreSenderApp\\CoreSenderApp\\CoreSenderApp.csproj",
+        "packagesPath": "C:\\Users\\khullar\\.nuget\\packages\\",
+        "outputPath": "D:\\WorkArea\\Practice\\CoreSenderApp\\CoreSenderApp\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\khullar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.Azure.ServiceBus": {
+              "target": "Package",
+              "version": "[5.1.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.114\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
